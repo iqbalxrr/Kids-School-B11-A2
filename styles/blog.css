@@ -1,0 +1,42 @@
+
+/* font section  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ......................................................... */
+
+.main{
+
+margin: 20px 140px;
+
+}
+
+/* nav styles  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-section{
+
+    display: flex;
+}
+
+.logo-section{
+
+}
+
+
+
+/* responsive section */
+
+@media screen and (max-width:576px) {
+
+    .main{
+        margin: 20px 16px ;
+    }
+    
+}
