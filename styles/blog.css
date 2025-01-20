@@ -8,7 +8,7 @@
 
 .main{
 
-margin: 20px 140px;
+margin: 20px 150px;
 
 }
 
@@ -35,7 +35,7 @@ nav{
     margin-left: 10px;
     
 
-    }
+ }
 
  nav  li {
 
@@ -65,6 +65,188 @@ nav{
     
  }
 
+ .fa-bars{
+    display: none ;
+ }
+
+ /* banner section styles */
+
+ .banner {
+
+    display: flex;
+    justify-content: space-between;
+   
+   border: 2px solid tan;
+
+ }
+
+ .banner-hero{
+
+    margin-top: 60px;
+ }
+
+ .banner h1 {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px; 
+    margin-bottom: 0;
+}
+
+.banner p {
+
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner button {
+    color: #FFF;
+    border-radius: 12px;
+    background: var(--Black, #111);
+    padding: 10px 40px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* Curriculum-section style */
+
+
+.Curriculum-section{
+    background-image: url('../styles/images/bg.png');
+}
+
+.Curriculum-section h1{
+    
+    margin-top: 60px;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+
+}
+
+.Curriculum-card {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin-top: 80px;
+      border: 2px solid ;
+      gap: 30px;
+}
+
+.card-1 {
+    padding: 52px 45px;
+    border-radius: 18px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-1 h2{
+    color: #202020;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px; 
+}
+
+.card-1 p{
+    color: #808080;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px; 
+}
+
+.card-1 h4 {
+    color: #64C8FF;
+    margin-top: 35px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+.card-2 {
+    padding: 52px 40px;
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-2 h2{
+    color: #202020;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px; 
+}
+
+.card-2 p{
+    color: #808080;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px; 
+}
+
+.card-2 h4 {
+    color: #F0AA00;
+    margin-top: 35px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+.card-3 {
+    padding: 52px 40px;
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-3 h2{
+    color: #202020;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px; 
+}
+
+.card-3 p{
+    color: #808080;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px; 
+}
+
+.card-3 h4 {
+    color: #8700FF;
+    margin-top: 35px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
 
 /* responsive section */
 
@@ -73,5 +255,57 @@ nav{
     .main{
         margin: 20px 16px ;
     }
+   
+    nav h1 , ul> li   {
+
+        display: none;
+    }
+
+    nav  button {
+        display: none;
+    }
     
-}
+    .fa-bars{
+        display: inline ;
+       margin-top: 10px;
+       font-size: 40px;
+
+    }
+
+    /* baneer  */
+    .banner{   
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .banner img {
+
+        width: 357px;
+        padding-left: 11px;
+    }
+
+    .banner-hero {
+
+        text-align: center;
+        margin-top: 0;
+        padding: 5px;
+    }
+
+    .Curriculum-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 80px;
+        border: 2px solid ;
+        gap: 30px;
+  }
+  
+
+ }
+    
+
+
+   
+    
