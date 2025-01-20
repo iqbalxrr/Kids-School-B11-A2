@@ -6,9 +6,17 @@
 
 /* ......................................................... */
 
-.main{
+header{
+    margin: 20px 160px;
+}
 
-margin: 20px 150px;
+main {
+    
+    background: linear-gradient(0deg, rgba(241, 192, 107, 0.3) 0%, rgba(255, 255, 255, 0.30) 100%) ,  url('../styles/images/bg.png');
+}
+.main-section{
+
+margin: 20px 160px;
 
 }
 
@@ -120,6 +128,7 @@ nav{
 
 .Curriculum-section{
     background-image: url('../styles/images/bg.png');
+   
 }
 
 .Curriculum-section h1{
@@ -131,6 +140,27 @@ nav{
     font-size: 46px;
     font-weight: 700;
 
+}
+
+.arrow-btn {
+    
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+
+}
+
+.arrow-btn button {
+    
+    color: #FFF;
+    padding: 20px;
+    font-size: 40px;
+    background-color: #FEA301;
+    border-radius: 30px;
+    border: none;
 }
 
 .Curriculum-card {
@@ -248,11 +278,123 @@ nav{
     line-height: 28.296px;
 }
 
+ /* stories section styles */
+
+ .stories-section {
+
+   
+
+    z-index: 2;
+    background-repeat: repeat;
+    padding-bottom: 80px;
+
+ }
+
+.stories-section h1 {
+ 
+    margin-top: 60px;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 60px;
+
+
+}
+
+.stories-card-container {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.main-card{
+    border-radius: 16px;
+    background: #FFF;
+}
+.main-card img {
+    border-radius: 10px 10px 0 0;
+    width: 600px;
+}
+
+.main-card h2 {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.347px; 
+    padding-left: 38px;
+    
+}
+.main-card p {
+
+    color: #666;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px; 
+    padding-left: 34px;
+    padding-bottom: 40px;
+
+}
+
+.secondary-card{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 40px;
+    
+}
+.secondary-card img {
+    border-radius: 10px 10px 0 0;
+    width: 350px;
+}
+
+
+
+
+.container{
+     position: relative;
+     border-radius: 16px;
+    background: #FFF;
+}
+
+.container p {
+    padding-left: 37px;
+    color: #000;
+    font-family: Quicksand;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.761px; 
+    
+}
+
+
+
+.btn-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 130%);
+    padding: 9px 10px;
+    border-radius: 47.934px;
+    background: #5D58F0;
+    border: none;
+    color: #FFF;
+}
+
 /* responsive section */
 
 @media screen and (max-width:576px) {
-
-    .main{
+ 
+    header{
+        margin: 20px 16px ; 
+    }
+    .main-section{
         margin: 20px 16px ;
     }
    
@@ -301,10 +443,43 @@ nav{
         border: 2px solid ;
         gap: 30px;
   }
+
+  .main-card {
+
+    display: none;
+  }
+ 
+  .secondary-card {
+    gap: 5px ;
+  }
+  .secondary-card img {
+     width: 195px;
+  }
+
+  .container p {
+    padding-left:10px;
+    color: #000;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .btn-middle{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-20%, 140%);
+    padding: 5px 5px;
+    border-radius: 47.934px;
+    background: #5D58F0;
+    border: none;
+    color: #FFF;
   
 
  }
-    
+ 
+}
 
 
    
