@@ -25,10 +25,45 @@ nav{
     display: flex;
 }
 
-.logo-section{
+.logo-section h1 {
 
-}
+    color:  #111;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 10px;
+    
 
+    }
+
+ nav  li {
+
+    display: inline;
+    margin-left: 32px;
+    color: var(--Orange, #FEA301);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; 
+
+
+ }
+
+ nav button {
+
+    padding: 10px 55px;
+    border-radius: 12px;
+    background: var(--Orange, #FEA301);
+    border: none;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 15px;
+    
+ }
 
 
 /* responsive section */
