@@ -16,7 +16,7 @@ main {
 }
 .main-section{
 
-margin: 20px 160px;
+margin: 20px 160px 0;
 
 }
 
@@ -84,7 +84,6 @@ nav{
     display: flex;
     justify-content: space-between;
    
-   border: 2px solid tan;
 
  }
 
@@ -168,7 +167,6 @@ nav{
       justify-content: space-between;
       text-align: center;
       margin-top: 80px;
-      border: 2px solid ;
       gap: 30px;
 }
 
@@ -281,12 +279,11 @@ nav{
  /* stories section styles */
 
  .stories-section {
-
-   
-
     z-index: 2;
     background-repeat: repeat;
     padding-bottom: 80px;
+
+   
 
  }
 
@@ -298,9 +295,28 @@ nav{
     font-family: Quicksand;
     font-size: 46px;
     font-weight: 700;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 
 
+}
+
+.viewbtn{
+    text-align: center;
+}
+
+.viewbtn button {
+
+     padding: 10px 55px;
+     margin-top: 80px;
+     border-radius: 12px;
+    background:  #111;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+   
 }
 
 .stories-card-container {
@@ -387,6 +403,73 @@ nav{
     color: #FFF;
 }
 
+/* footer styles */
+
+footer {
+    background: #01ACFD;
+}
+
+.footer-container{
+    
+    margin: 0px 160px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 127px;
+    padding-bottom: 100px;
+
+}
+
+.footer-title{
+    display: flex;
+    gap: 10px;
+}
+.footer-title img {
+    background: #FFF;
+    height: 100%;
+    margin-top: 6px;
+}
+.footer-title h1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.509px;
+    margin-top: 0;
+
+}
+#about{
+    margin-left: 30px;
+}
+.footer-container p {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.footer-container h2 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-container li {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+   padding-top: 10px;
+}
 /* responsive section */
 
 @media screen and (max-width:576px) {
@@ -395,7 +478,7 @@ nav{
         margin: 20px 16px ; 
     }
     .main-section{
-        margin: 20px 16px ;
+        margin: 20px 16px 0 ;
     }
    
     nav h1 , ul> li   {
@@ -423,8 +506,7 @@ nav{
 
     .banner img {
 
-        width: 357px;
-        padding-left: 11px;
+        width: 100%;
     }
 
     .banner-hero {
@@ -440,7 +522,6 @@ nav{
         justify-content: space-between;
         text-align: center;
         margin-top: 80px;
-        border: 2px solid ;
         gap: 30px;
   }
 
@@ -450,10 +531,10 @@ nav{
   }
  
   .secondary-card {
-    gap: 5px ;
+    gap: 8px ;
   }
   .secondary-card img {
-     width: 195px;
+     width: 100%;
   }
 
   .container p {
@@ -478,6 +559,21 @@ nav{
   
 
  }
+
+ .footer-container{
+    
+    margin: 0px 16px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 127px;
+    padding-bottom: 100px;
+
+}
+
+#about{
+    margin-left: 0;
+}
  
 }
 
