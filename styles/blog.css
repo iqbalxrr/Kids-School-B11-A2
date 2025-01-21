@@ -161,6 +161,7 @@ nav{
     background-color: #FEA301;
     border-radius: 30px;
     border: none;
+    margin: 10px;
 }
 
 .Curriculum-card {
@@ -502,6 +503,7 @@ footer {
     }
 
     /* baneer  */
+
     .banner{   
         display: flex;
         flex-direction: column-reverse;
