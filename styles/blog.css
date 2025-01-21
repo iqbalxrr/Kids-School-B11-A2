@@ -58,7 +58,7 @@ nav{
 
  }
 
- nav button {
+ nav > div > button {
 
     padding: 10px 55px;
     border-radius: 12px;
@@ -73,8 +73,9 @@ nav{
     
  }
 
- .fa-bars{
+ #btn-secondary {
     display: none ;
+    text-decoration: none;
  }
 
  /* banner section styles */
@@ -490,10 +491,13 @@ footer {
         display: none;
     }
     
-    .fa-bars{
+    #btn-secondary{
         display: inline ;
        margin-top: 10px;
        font-size: 40px;
+       border: none;
+       background-color: #FFF;
+       
 
     }
 
@@ -573,6 +577,12 @@ footer {
 
 #about{
     margin-left: 0;
+}
+
+.footer-links ol {
+
+    padding-left: 1px;
+
 }
  
 }
