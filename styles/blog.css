@@ -625,6 +625,10 @@ footer {
 
 }
 
+.footer-container p {
+    font-size: 16px;
+}
+
 #about{
     margin-left: 0;
 }
@@ -632,6 +636,7 @@ footer {
 .footer-links ol {
 
     padding-left: 1px;
+    font-size: 16px;
 
 }
  
